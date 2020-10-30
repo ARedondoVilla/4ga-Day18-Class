@@ -20,7 +20,13 @@ const getState = ({ getStore, setStore }) => {
 						});
 						console.log(json.results);
 					});
-			}
+			},
+
+			createContact(data) {},
+
+			deleteContact(id) {},
+
+			editContact(id, data) {}
 			//(Arrow) Functions that update the Store
 			// Remember to use the scope: scope.state.store & scope.setState()
 		}
